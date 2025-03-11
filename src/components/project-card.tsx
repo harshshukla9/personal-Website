@@ -50,16 +50,23 @@ export function ProjectCard({
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
       >
-        {video && (
-          <video
-            src={video}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
-          />
-        )}
+        {video && (video.includes("youtube.com") || video.includes("youtu.be")) ? (
+  <iframe
+    src={`https://www.youtube.com/embed/${new URL(video).searchParams.get("v")}`}
+    title={title}
+    allowFullScreen
+    className="mx-auto h-40 w-full object-cover"
+  />
+) : (
+  <video
+    src={video}
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="pointer-events-none mx-auto h-40 w-full object-cover object-top"
+  />
+)}
         {image && (
           <Image
             src={image}
