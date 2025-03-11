@@ -32,7 +32,7 @@ export function FreelanceCard({
     >
       <div>
         {image && (
-          <Image
+          <img
             src={image}
             alt={title}
             width={500}

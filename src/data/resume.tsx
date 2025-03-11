@@ -231,6 +231,45 @@ export const DATA = {
 
   ],
 
+  Certificate: [
+    {
+      title: "University at Buffalo",
+      description:
+        "Blockchain Basic to Advance.",
+      image:
+        "https://iili.io/3qGDL6g.md.png",
+    },
+    {
+      title: "C++ Gaming Fundamentals",
+      description:
+        "Real Gaming building using Unreal,Unity ,Phaser",
+      image:
+        "https://iili.io/3qGvo11.md.png",
+    },
+    {
+      title: "Solidty",
+      description:
+        "Contract programming for EVM Chain Solidty.",
+      image:
+        "https://iili.io/3qGDsMF.md.png",
+    },
+    {
+      title: "Web Design",
+      description:
+        "Response Web Design",
+      image:
+        "https://iili.io/3qGD6ZP.md.png",
+    },
+    {
+      title: "React",
+      description:
+        "React ",
+      image:
+        "https://iili.io/3qGDZFa.md.png",
+    },
+
+  ],
+
   Wins: [
     {
       title: "Solana 100xdev hackathon",
