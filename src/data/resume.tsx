@@ -78,7 +78,7 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Graphic Era Hill Uinversity",
+      school: "Graphic Era Hill University",
       href: "https://buildspace.so",
       degree: "Btech",
       logoUrl: "/buildspace.jpg",
